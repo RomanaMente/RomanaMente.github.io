@@ -15,6 +15,14 @@ form label{
     display: inline-block
 }
 
+form label:hover{
+
+    width: 100px;
+    display: inline-block;
+    color: blanchedalmond;
+
+}
+
 .box
 {
 
@@ -22,6 +30,25 @@ form label{
     border-color: red;
     display: inline-block;
     width: 30%;
-    padding: 10px 20px 5px;
+    
     margin: 5px;
+}
+
+.bot{
+    border: 1px solid green;
+    background-color: red;
+}
+
+.bot_large{
+    width: 300px;
+    background-color: goldenrod;
+    transition:  all 2s ease-in-out;
+
+
+}
+.bot_large:hover{
+    background-color: aqua;
+    color: yellow;
+    cursor: e-resize;
+    width: 350px;
 }
