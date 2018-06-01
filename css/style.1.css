@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+}
+
+img{
+
+    width: 100%;
+    max-width: 700px;
+    height: auto; 
+}
+
+form label{
+
+    width: 100px;
+    display: inline-block
+}
+
+.box
+{
+
+    border: 2PX solid red;
+    border-color: red;
+    display: inline-block;
+    width: 30%;
+    padding: 10px 20px 5px;
+    margin: 5px;
+}
