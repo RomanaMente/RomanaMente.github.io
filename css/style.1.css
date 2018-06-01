@@ -52,3 +52,10 @@ form label:hover{
     cursor: e-resize;
     width: 350px;
 }
+
+@media(min-width:600px){
+body{
+    background-color: red;
+}
+
+}
